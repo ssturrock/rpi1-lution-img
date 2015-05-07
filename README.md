@@ -1,2 +1,3 @@
 # rpi1-lution-img
-Development version of the build script for Evo/Lution Linux for the Raspberry Pi
+
+Development version of rpi1-lution-img
