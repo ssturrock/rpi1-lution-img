@@ -41,7 +41,7 @@ mkdir boot
 mount /dev/mmcblk0p1 boot/
 mkdir root
 mount /dev/mmcblk0p2 root/
-#wget http://archlinuxarm.org/os/ArchLinuxARM-rpi-latest.tar.gz -P /tmp/
+wget http://archlinuxarm.org/os/ArchLinuxARM-rpi-latest.tar.gz -P /tmp/
 bsdtar -xvpf /tmp/ArchLinuxARM-rpi-latest.tar.gz -C root
 sync
 cp -r root/boot/* boot/
