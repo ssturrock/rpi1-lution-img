@@ -84,7 +84,7 @@ echo 'while ! ping -c1 www.google.com &>/dev/null; do :; done' >> root/root/.bas
 echo 'resize2fs /dev/mmcblk0p2' >> root/root/.bash_profile
 echo 'pacman -Syu --noconfirm' >> root/root/.bash_profile
 echo 'pacman -S git dialog shadow  --noconfirm' >> root/root/.bash_profile
-echo 'git clone https://github.com/ssturrock/rpi2-lution-ais.git' >> root/root/.bash_profile
+echo 'git clone https://github.com/ssturrock/rpi1-lution-ais.git' >> root/root/.bash_profile
 echo 'cd rpi2-lution-ais' >> root/root/.bash_profile
 echo 'chmod +x rpi2-lution-ais' >> root/root/.bash_profile
 echo './rpi2-lution-ais' >> root/root/.bash_profile
